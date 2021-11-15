@@ -1,0 +1,45 @@
+html {
+  font-size: 0.39vw;
+}
+
+@media only screen and (max-width: 1980px) {
+  html {
+    font-size: 0.52vw;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  html {
+    font-size: 0.62vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 2.6vw;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  font-family: "TT Commons", sans-serif;
+  position: relative;
+}
+
+.container {
+  max-width: 132rem;
+  margin: auto;
+  width: 100%;
+}
+
